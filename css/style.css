@@ -2,4 +2,20 @@
     height: 360px;
 }
 
+.t-carrusel{
+    background-color: rgba(228, 89, 54, 0.75);
+    color: black;
+    border-radius: 5px;
+    border-color: rgba(141, 39, 13, 0.75);
+}
+.t2-carrusel{
+    background-color: rgba(228, 89, 54, 0.75);
+    color: black;
+    border-radius: 5px;
 
+}
+.p-carrusel{
+    background-color: rgba(228, 89, 54, 0.75);
+    color: black;
+    border-radius: 5px;
+}
