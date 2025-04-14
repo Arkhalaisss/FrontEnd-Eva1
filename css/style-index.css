@@ -1,0 +1,50 @@
+.c-img{
+    height: 360px;
+    border-radius: 5px;
+}
+
+.t-carrusel{
+    background-color: rgba(228, 89, 54, 0.75);
+    color: black;
+    border-radius: 5px;
+    border-color: rgba(141, 39, 13, 0.75);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t2-carrusel{
+    background-color: rgba(228, 89, 54, 0.75);
+    color: black;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.p-carrusel{
+    background-color: rgba(228, 89, 54, 0.75);
+    color: black;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.precio-carta{
+    color: black;
+    align-self: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t-carta{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+}
+.div-car1{
+    background-color: beige;
+    border-radius: 10px 10px 10px 10px;
+}
+.div-car2{
+    background-color: azure;
+    border-radius: 10px 10px 10px 10px;
+}
+.n-b{
+    background-color: rgb(221, 71, 44);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
