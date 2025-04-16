@@ -6,21 +6,28 @@
     <title>Contacto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style-contacto.css">
+    <script src="https://kit.fontawesome.com/0861a7541d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style-index.css">
 </head>
 <header>
+  <!--NavBar-->
   <nav class="navbar navbar-expand-lg t-pag">
-    <div class="container-fluid ">
+    <div class="container-fluid aling-items-center ">
       <a class="navbar-brand" href="#" style="color:rgb(253, 191, 19);">El Aniquilador del Hambre</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:rgb(253, 191, 19);">
+      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent" style="color:rgb(253, 191, 19);">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html" style="color:rgb(253, 191, 19);">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html#inicio" style="color:rgb(253, 191, 19);"> <i class="fa-solid fa-house aling-items-center"></i></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html" style="color:rgb(253, 191, 19);">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#Historia" style="color:rgb(253, 191, 19);">Historia</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(253, 191, 19);">
@@ -39,9 +46,119 @@
   </nav>
 </header>
 <body>
+  <div class="container caja-input mt-5 mb-5">
+    <form class="row s-validated" novalidate>
+      <h2>CONSULTAS Y/O RECLAMOS</h2>
+      <div class="col-12">
+        <label for="nombre" class="l-form form-label">Nombre</label>
+        <input type="nombre" class="in-form form-control" id="nombre" placeholder="Nombre Completo">
+        <div class="valid-feedback">
+          bien nombre
+        </div>
+        <div class="invalid-feedback">
+          mal nombre
+        </div>
+      </div>
+      <div class="col-12">
+        <label for="email" class="l-form form-label">Email</label>
+        <input type="email" class="in-form form-control" id="email" placeholder="Email/Correo">
+        <div class="valid-feedback">
+          bien email
+        </div>
+        <div class="invalid-feedback">
+          mal email
+        </div>
+      </div>
+      <div class="col-12">
+        <label for="contacto" class="l-form form-label">Teléfono</label>
+        <input type="email" class="in-form form-control" id="contacto" placeholder="Número De Teléfono">
+        <div class="valid-feedback">
+          bien contacto
+        </div>
+        <div class="invalid-feedback">
+          mal contacto
+        </div>
+      </div>
+      
+      <div class="col-12">
+        <label for="textms" class="l-form form-label">Mensaje</label>
+        <textarea name="Mensaje" id="textms" class="in-form form-control"></textarea>
+        <div class="valid-feedback">
+          bien mensaje
+        </div>
+        <div class="invalid-feedback">
+          mal mensaje
+        </div>
+      </div>
 
+      <div class="col-6">
+        <div class="form-check ms-5">
+          <label for="checkconsulta" class="l-form">Consulta</label>
+          <input type="checkbox" id="checkconsulta" class="form-check-input">
+        </div>
+      </div>
 
+      <div class="col-6">
+        <div class="form-check ms-5">
+          <label for="checkReclamo" class="l-form">Reclamo</label>
+          <input type="checkbox" id="checkReclamo" class="form-check-input">
+          <div class="valid-feedback">
+            bien reclamo          </div>
+          <div class="invalid-feedback">
+            mal reclamo
+          </div>
+        </div>
+      </div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+      <div class="col-3">
+        <button type="submit" class="btn">
+          Enviar
+        </button>
+      </div>
+      
+    </form>
+  </div>
+<section id="footer">
+<footer class="bg-black mt-3">
+  <div class="container">
+    <nav class="row">
+      <img src="img/logos/logo2.jpeg" alt="" class="img-logo me-2 col-6 col-md-2 mb-3">
+      <div class="col-12 col-md-1 text-uppercase f-text me-4 d-flex-column">
+        <a href="index.html#inicio">
+          <i class="fa-solid fa-house mt-5 ms-5 text-white"></i>
+        </a>
+      </div>
+      <div class="col-12 col-md-3 ">
+        <ul class="list-unstyled " style="color: aliceblue;">
+          <li class="font-weight-bold text-uppercase f-text"> Contacto de Sucursales</li>
+          <li class="mb-3">Sucursal 1: +56900000001 <i class="fa-brands fa-whatsapp me-2"></i> <i class="fa-solid fa-phone"></i></li>
+          <li class="mb-3">Sucursal 2: +56900000002 <i class="fa-brands fa-whatsapp me-2"></i> <i class="fa-solid fa-phone"></i></li>
+          <li class="mb-3">Sucursal 3: +56900000003 <i class="fa-brands fa-whatsapp me-2"></i> <i class="fa-solid fa-phone"></i></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3 ">
+        <ul class="list-unstyled ms-5" style="color: aliceblue;">
+          <li class="font-weight-bold text-uppercase f-text"> Redes sociales</li>
+          <li class="mb-3 f-text d-flex justify-content-between">
+            <a href="https://www.facebook.com/">
+              <i class="fa-brands fa-facebook text-white"></i> 
+            </a>
+            <a href="https://www.pinterest.com/">
+              <i class="fa-brands fa-pinterest text-white"></i> 
+            </a>
+            <a href="https://www.instagram.com/">
+              <i class="fa-brands fa-instagram text-white"></i>
+            </a>
+            <a href="https://www.twitter.com/">
+              <i class="fa-brands fa-x-twitter text-white"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</footer>  
+</section>
+
 </body>
 </html>

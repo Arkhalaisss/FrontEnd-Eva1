@@ -1,7 +1,63 @@
-.t-pag{
+header{
     background-color: rgb(0, 0, 0); 
     color:rgb(253, 191, 19);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
     border-radius: 0px 0px 5px 5px;
+}
+
+body{
+    background-color: aliceblue;
+    
+}
+
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caja-input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 50px 50px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    text-align: center;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgb(19, 18, 18);
+    border-radius: 25px;
+}
+
+h2{
+    color: rgb(253, 191, 19);
+    font-size: 30px;
+}
+
+.l-form{
+    color: rgb(253, 191, 19);
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.in-form{
+    padding: 17px 25px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    outline: none;
+    border: 2px solid aliceblue;
+    border-radius: 25px;
+}
+
+.btn{
+    background-color: aliceblue;
+    font-size: 16px;
+    border: 0;
+}
+
+.btn:hover{
+    background-color: rgb(253, 191, 19);
+    color: black;
 }
