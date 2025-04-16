@@ -8,30 +8,30 @@
     
     <link rel="stylesheet" href="css/style-index.css">
     <style> 
-    body{ background-color: rgb(255, 174, 82);}
+    body{ background-color: rgb(245, 245, 245);}
     </style>
 </head>
 <header>
   <!--NavBar-->
-  <nav class="navbar navbar-expand-lg n-b">
+  <nav class="navbar navbar-expand-lg t-pag">
     <div class="container-fluid ">
-      <a class="navbar-brand" href="#">El Aniquilador del Hambre</a>
+      <a class="navbar-brand" href="#" style="color:rgb(253, 191, 19);">El Aniquilador del Hambre</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:rgb(253, 191, 19);">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html" style="color:rgb(253, 191, 19);">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contacto.html">Contacto</a>
+            <a class="nav-link" href="contacto.html" style="color:rgb(253, 191, 19);">Contacto</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(253, 191, 19);">
               Cartas 
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" style="background-color: antiquewhite;">
               <li><a class="dropdown-item" href="#Sandwiches">Sandwiches</a></li>
               <li><a class="dropdown-item" href="#Comidas">Platos</a></li>
               <li><a class="dropdown-item" href="#Bebidas">Bebidas</a></li>
@@ -46,11 +46,9 @@
 <body>
   <!--Titulo-->  
   <div class="container mt-3 text-center">
-      <div class="row"> 
-          <div class="col-12 "><h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: aquamarine;">El Aniquilador Del Hambre</h1></div>
-          <div class="col-12 mt-1"><h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background-color: azure;">SODA/RESTAURANT/COMIDA</h2></div>
+      <div class="row t-pag"> 
+          <div class="col-12 " ><h1>El Aniquilador Del Hambre</h1></div>
+          <div class="col-12 mt-1" ><h2>SODA/RESTAURANT/COMIDA</h2></div>
       </div>
   </div>
   <!--Carrusel 1-->
@@ -285,6 +283,73 @@
           </div>
       </div>
     </div>
+  </div>
+</section>
+<section id="Historia">
+  <div class="container mt-5 t-pag"> <h1>Historia De La Empresa</h1></div>
+  <div class="container mb-5"> 
+    <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-radius: 10px; background-color: antiquewhite; margin: 10px;">
+      <p>Hace cinco décadas, en un pequeño rincón de la ciudad, nació "El Aniquilador Del Hambre", un restaurante familiar con un sueño: ofrecer comida de calidad con el sabor auténtico de la cocina tradicional. Lo que comenzó como un modesto local con unas pocas mesas, pronto se convirtió en un referente gastronómico, atrayendo a generaciones de clientes que buscaban una experiencia única.
+        A lo largo de los años, la empresa amplió su oferta, incorporando una línea de sodas artesanales que complementan perfectamente sus platos emblemáticos. Hoy en día, con 50 años de trayectoria, "El Aniquilador Del Hambre" sigue siendo un símbolo de calidad, innovación y calidez, manteniendo el legado de sus fundadores mientras evoluciona para satisfacer los gustos de nuevas generaciones.</p>
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/locales/local-interior.png" class="d-block w-100 h-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/locales/local-interior2.png" class="d-block w-100 h-img" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/locales/local-interior3.png" class="d-block w-100 h-img" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div> <!--/div container-->
+</section>
+<section id="Testimonios">
+  <div class="container t-pag"> <h1>Testimonios De Los Clientes</h1></div>
+  <div class="container ">
+    <div class="row">
+        <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;">
+         <img src="img/cards/cliente1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;" >
+          <img src="img/cards/cliente2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div><!--/Div row-->
+    <div class="row">
+      <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;">
+        <img src="img/cards/cliente3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;" >
+        <img src="img/cards/cliente4.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+    </div><!--/Div row-->
   </div>
 </section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>

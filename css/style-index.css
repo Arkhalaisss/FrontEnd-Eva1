@@ -1,3 +1,11 @@
+.t-pag{
+    background-color: rgb(71, 8, 8); 
+    color:rgb(253, 191, 19);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    border-radius: 5px;
+}
+
 .c-img{
     height: 360px;
     border-radius: 5px;
@@ -32,9 +40,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .t-carta{
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(71, 8, 8);
+    color: rgb(253, 191, 19);
     border-radius: 10px 10px 0px 0px;
+    font-size: 40px;
 }
 .div-car1{
     background-color: beige;
@@ -44,7 +53,8 @@
     background-color: azure;
     border-radius: 10px 10px 10px 10px;
 }
-.n-b{
-    background-color: rgb(221, 71, 44);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.h-img{
+    height: 720px;
+    border-radius: 10px;
 }
