@@ -1,9 +1,9 @@
 .t-pag{
-    background-color: rgb(71, 8, 8); 
+    background-color: rgb(0, 0, 0); 
     color:rgb(253, 191, 19);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .c-img{
@@ -12,21 +12,20 @@
 }
 
 .t-carrusel{
-    background-color: rgba(228, 89, 54, 0.75);
+    background-color: rgb(253, 191, 19, 0.75);
     color: black;
     border-radius: 5px;
-    border-color: rgba(141, 39, 13, 0.75);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .t2-carrusel{
-    background-color: rgba(228, 89, 54, 0.75);
+    background-color: rgb(253, 191, 19, 0.75);
     color: black;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 .p-carrusel{
-    background-color: rgba(228, 89, 54, 0.75);
+    background-color: rgb(253, 191, 19, 0.75);
     color: black;
     border-radius: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -37,10 +36,10 @@
     align-self: center;
     border-radius: 10px;
     margin-left: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 .t-carta{
-    background-color: rgb(71, 8, 8);
+    background-color: rgb(0, 0, 0);
     color: rgb(253, 191, 19);
     border-radius: 10px 10px 0px 0px;
     font-size: 40px;
@@ -57,4 +56,14 @@
 .h-img{
     height: 720px;
     border-radius: 10px;
+}
+.img-logo{
+    height: 18%;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.f-text{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
 }

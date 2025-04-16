@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Aniquilador del Hambre</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0861a7541d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style-index.css">
     <style> 
     body{ background-color: rgb(245, 245, 245);}
@@ -13,15 +15,15 @@
 <header>
   <!--NavBar-->
   <nav class="navbar navbar-expand-lg t-pag">
-    <div class="container-fluid ">
+    <div class="container-fluid aling-items-center ">
       <a class="navbar-brand" href="#" style="color:rgb(253, 191, 19);">El Aniquilador del Hambre</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:rgb(253, 191, 19);">
+      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent" style="color:rgb(253, 191, 19);">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html" style="color:rgb(253, 191, 19);">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="#inicio" style="color:rgb(253, 191, 19);"> <i class="fa-solid fa-house aling-items-center"></i></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html" style="color:rgb(253, 191, 19);">Contacto</a>
@@ -44,12 +46,14 @@
 </header>
 <body>
   <!--Titulo-->  
+<section  id="inicio">
   <div class="container mt-3 text-center">
-      <div class="row t-pag"> 
-          <div class="col-12 " ><h1>El Aniquilador Del Hambre</h1></div>
-          <div class="col-12 mt-1" ><h2>SODA/RESTAURANT/COMIDA</h2></div>
-      </div>
-  </div>
+    <div class="row t-pag"> 
+        <div class="col-12 " ><h1>El Aniquilador Del Hambre</h1></div>
+        <div class="col-12 mt-1" ><h2>SODA/RESTAURANT/COMIDA</h2></div>
+    </div>
+</div>
+</section>
   <!--Carrusel 1-->
 <section id="Sandwiches">
   <div class="container mt-3 text-center div-car1" >
@@ -287,71 +291,102 @@
 <section id="Historia">
   <div class="container mt-5 t-pag"> <h1>Historia De La Empresa</h1></div>
   <div class="container mb-5"> 
-    <div style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; border-radius: 10px; background-color: antiquewhite; margin: 10px; font-size: 20px;">
-      <p>Hace cinco décadas, en un pequeño rincón de la ciudad, nació "El Aniquilador Del Hambre", un restaurante familiar con un sueño: ofrecer comida de calidad con el sabor auténtico de la cocina tradicional. Lo que comenzó como un modesto local con unas pocas mesas, pronto se convirtió en un referente gastronómico, atrayendo a generaciones de clientes que buscaban una experiencia única.
-        A lo largo de los años, la empresa amplió su oferta, incorporando una línea de sodas artesanales que complementan perfectamente sus platos emblemáticos. Hoy en día, con 50 años de trayectoria, "El Aniquilador Del Hambre" sigue siendo un símbolo de calidad, innovación y calidez, manteniendo el legado de sus fundadores mientras evoluciona para satisfacer los gustos de nuevas generaciones.</p>
-    </div>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/locales/local-interior.png" class="d-block w-100 h-img" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/locales/local-interior2.png" class="d-block w-100 h-img" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/locales/local-interior3.png" class="d-block w-100 h-img" alt="...">
+    <div class="row">
+      <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;">
+       <img src="img/locales/local-interior3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">50 años</h5>
+          <p class="card-text">Hace cinco décadas, en un pequeño rincón de la ciudad, nació "El Aniquilador Del Hambre", un restaurante familiar con un sueño: ofrecer comida de calidad con el sabor auténtico de la cocina tradicional. Lo que comenzó como un modesto local con unas pocas mesas, pronto se convirtió en un referente gastronómico, atrayendo a generaciones de clientes que buscaban una experiencia única.</p>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;" >
+        <img src="img/locales/local-interior.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Trayectoria </h5>
+          <p class="card-text"> A lo largo de los años, la empresa amplió su oferta, incorporando una línea de sodas artesanales que complementan perfectamente sus platos emblemáticos. Hoy en día, con 50 años de trayectoria, "El Aniquilador Del Hambre" sigue siendo un símbolo de calidad, innovación y calidez, manteniendo el legado de sus fundadores mientras evoluciona para satisfacer los gustos de nuevas generaciones.</p>
+        </div>
+      </div>
+  </div><!--/Div row-->
     </div>
   </div> <!--/div container-->
 </section>
 <section id="Testimonios">
   <div class="container t-pag"> <h1>Testimonios De Los Clientes</h1></div>
-  <div class="container ">
+  <div class="container" style="background-color: antiquewhite;">
     <div class="row">
-        <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;">
+        <div class="col-12 col-md-6 card ms-3 mb-5" style="width: 40rem;">
          <img src="img/cards/cliente1.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Elba Surita</h5>
+            <h5 class="card-title"> <i class="fa-solid fa-person"></i> Elba Surita</h5>
             <p class="card-text">"Si buscas un lugar donde la comida casera te haga sentir como en casa, este es tu destino. Cada plato es un abrazo al alma chilena."</p>
           </div>
         </div>
-        <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;" >
+        <div class="col-12 col-md-6 card ms-3 mb-5" style="width: 40rem;" >
           <img src="img/cards/cliente2.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Susana Orias </h5>
+            <h5 class="card-title"><i class="fa-solid fa-person-dress"></i></i>Susana Orias </h5>
             <p class="card-text">"Desde el arroz con leche más cremoso hasta una piscola bien servida, cada bocado aquí es una celebración de la gastronomía local."</p>
           </div>
         </div>
     </div><!--/Div row-->
     <div class="row">
-      <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;">
+      <div class="col-12 col-md-6 card ms-3 mb-2" style="width: 40rem;">
         <img src="img/cards/cliente3.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Juan Gutierrez</h5>
+          <h5 class="card-title"><i class="fa-solid fa-person"></i>Juan Gutierrez</h5>
           <p class="card-text">"Nada mejor que una buena cazuela en un día frío o un fresco mote con huesillo para aliviar la tarde."</p>
         </div>
       </div>
-      <div class="col-12 col-md-4 card ms-3 mb-5" style="width: 35rem;" >
+      <div class="col-12 col-md-6 card ms-3 mb-2" style="width: 40rem;" >
         <img src="img/cards/cliente4.jpeg" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Paulina Gonzalez</h5>
+          <h5 class="card-title"><i class="fa-solid fa-person-dress"></i>Paulina Gonzalez</h5>
           <p class="card-text">"Si lo tuyo es la comida con carácter, aquí encontrarás la mejor chorrillana para compartir y la piscola justa para acompañar. Calidad, tradición y sabor en cada detalle."</p>
         </div>
       </div>
     </div><!--/Div row-->
   </div>
 </section>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+<section>
+  <footer class="bg-black mt-3">
+    <div class="container">
+      <nav class="row">
+        <img src="img/logos/logo2.jpeg" alt="" class="img-logo me-2 col-6 col-md-2 mb-3">
+        <div class="col-12 col-md-1 text-uppercase f-text me-4 d-flex-column">
+          <a href="index.html#inicio">
+            <i class="fa-solid fa-house mt-5 ms-5 text-white"></i>
+          </a>
+        </div>
+        <div class="col-12 col-md-3 ">
+          <ul class="list-unstyled " style="color: aliceblue;">
+            <li class="font-weight-bold text-uppercase f-text"> Contacto de Sucursales</li>
+            <li class="mb-3">Sucursal 1: +56900000001 <i class="fa-brands fa-whatsapp"></i> <i class="fa-solid fa-phone"></i></li>
+            <li class="mb-3">Sucursal 2: +56900000002 <i class="fa-brands fa-whatsapp"></i> <i class="fa-solid fa-phone"></i></li>
+            <li class="mb-3">Sucursal 3: +56900000003 <i class="fa-brands fa-whatsapp"></i> <i class="fa-solid fa-phone"></i></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 ">
+          <ul class="list-unstyled ms-5" style="color: aliceblue;">
+            <li class="font-weight-bold text-uppercase f-text"> Redes sociales</li>
+            <li class="mb-3 f-text d-flex justify-content-between">
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook text-white"></i> 
+              </a>
+              <a href="https://www.pinterest.com/">
+                <i class="fa-brands fa-pinterest text-white"></i> 
+              </a>
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram text-white"></i>
+              </a>
+              <a href="https://www.twitter.com/">
+                <i class="fa-brands fa-x-twitter text-white"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </footer>  
+</section>
 </body>
 </html>
