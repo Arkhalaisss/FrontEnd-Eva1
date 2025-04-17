@@ -1,1 +1,3 @@
-###Soy estudiante de Ing. Informatica y este es mi primer proyecto de Front End como material de evaluacion
+Imagenes generadas por IA: SeaArt, ArtGuru y Freepik IA, menos las imagenes de los productos
+
+https://github.com/Arkhalaisss/FrontEnd-Eva1
